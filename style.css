@@ -16,7 +16,8 @@ header{
    min-width: 100%; 
    min-height: 100%;
    right: 0;
-    
+    backdrop-filter: grey ;
+   
    bottom: 0;
    
    
@@ -28,6 +29,7 @@ header{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    
    
    
     
@@ -64,11 +66,17 @@ a{
     font-size: 35px;
     line-height: 49px;
     text-align: center;
- 
+ transition: 500ms;
     letter-spacing: 0.06em;
 
     
     color: #2C2C2C;
+}
+.heder__links:hover{
+    border-bottom: 7px solid #040000;
+    margin-top: 9px;
+    background: rgb(24, 1, 51);
+    color: white;
 }
 .social__net{
     padding-top: 70px;
@@ -139,7 +147,8 @@ color: black;
     
             }
             .photo{
-                width: 400px;
+                width: 550px;
+                        height: 450px;
             }
             .heder__links{
                 font-size: 17px;
@@ -162,7 +171,8 @@ color: black;
         
                 }
                 .photo{
-                    width: 400px;
+                    width: 450px;
+                    height: 450px;
                 }
                 .heder__links{
                     font-size: 17px;
@@ -190,7 +200,8 @@ color: black;
                        padding: 5px 40px;
                     }
                     .photo{
-                        width: 350px;
+                        width: 450px;
+                        height: 490px;
                     }
                     .a4{
                         font-size: 37px;
@@ -215,7 +226,8 @@ color: black;
                        padding: 5px 30px;
                     }
                     .photo{
-                        width: 310px;
+                        width: 450px;
+                        height: 490px;
                     }
                     .a4{
                         font-size: 30px;
@@ -224,7 +236,7 @@ color: black;
                 }
                 @media(max-width: 370px){
                     .header__vertise{
-                        gap: 50px;
+                        gap: 70px;
                        
                         margin-top: -1px;
                         /* margin: auto; */
@@ -240,7 +252,8 @@ color: black;
                        padding: 5px 20px;
                     }
                     .photo{
-                        width: 290px;
+                        width: 450px;
+                        height: 450px;
                         
                     }
                     .a4{
